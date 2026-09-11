@@ -95,7 +95,16 @@ internal class Program
         #endregion
         Console.WriteLine("_______________________________");
 
-      
+        #region [10th answer]
+        int copies = 100;
+        object copy01 = copies;//boxing
+
+        Console.WriteLine(copy01);
+
+        int copy02 = (int)copy01;//unboxing
+
+        Console.WriteLine(copy02);
+        #endregion
     }
 }
 
