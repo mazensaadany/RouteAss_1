@@ -52,6 +52,14 @@ internal class Program
         int pages = 300;
         double D_pages = Convert.ToDouble(pages);
         #endregion
+        Console.WriteLine("_______________________________");
+
+        #region [6th answer]
+        double price = 49.99;
+        int I_price = (int)price;
+        #endregion
+        Console.WriteLine("_______________________________");
+
 
     }
 }
