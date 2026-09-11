@@ -24,6 +24,15 @@ internal class Program
         Console.WriteLine(book.GetHashCode());
         Console.WriteLine(book.GetType());
         #endregion
+        Console.WriteLine("_______________________________");
+
+        #region [3rd answer]
+        //compile-time error:int cant hold string value
+        //int pages = 464;
+        #endregion
+        Console.WriteLine("_______________________________");
+
+        
     }
 }
 
