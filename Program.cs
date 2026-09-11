@@ -46,6 +46,12 @@ internal class Program
             Console.WriteLine("done");
         }
         #endregion
+        Console.WriteLine("_______________________________");
+
+        #region [5th answer]
+        int pages = 300;
+        double D_pages = Convert.ToDouble(pages);
+        #endregion
 
     }
 }
