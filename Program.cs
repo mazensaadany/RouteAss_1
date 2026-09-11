@@ -88,5 +88,14 @@ internal class Program
         #endregion
         Console.WriteLine("_______________________________");
 
+        #region [9th answer]
+        int pages02 = 464;
+        string pagesText02 = pages02.ToString();
+        Console.WriteLine(pagesText02.GetType());
+        #endregion
+        Console.WriteLine("_______________________________");
+
+      
+    }
 }
 
