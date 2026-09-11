@@ -3,8 +3,8 @@
 //the class Book initialized
 class Book
 {
-    public string Title;
-    public int Pages;
+    public string Title="refactoring";
+    public int Pages=464;
 }
 internal class Program
 {
@@ -15,6 +15,14 @@ internal class Program
         object obj = book;
 
         Console.WriteLine(obj);
+        #endregion
+        Console.WriteLine("_______________________________");
+
+        #region [2nd answer]
+        Console.WriteLine(book.ToString());
+        Console.WriteLine(book.Equals(book));
+        Console.WriteLine(book.GetHashCode());
+        Console.WriteLine(book.GetType());
         #endregion
     }
 }
