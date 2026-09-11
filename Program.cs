@@ -60,6 +60,12 @@ internal class Program
         #endregion
         Console.WriteLine("_______________________________");
 
+        #region [7th answer]
+        string pagesText = "464";
+        int pagesInt = Convert.ToInt32(pagesText);
+        #endregion
+        Console.WriteLine("_______________________________");
+
 
     }
 }
