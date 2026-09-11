@@ -32,7 +32,21 @@ internal class Program
         #endregion
         Console.WriteLine("_______________________________");
 
-        
+        #region [4th answer]
+        try
+        {
+            int num = 10 / 0;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        finally
+        {
+            Console.WriteLine("done");
+        }
+        #endregion
+
     }
 }
 
